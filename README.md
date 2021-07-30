@@ -11,6 +11,9 @@ Step 2
 put another property file with jar and just run with `java -jar`  
 Step 3  
 you may try `java -jar config-project-demo-0.0.1-SNAPSHOT.jar --my.greeting="hey from cmd"
-`
+`  
+Step 4  
+Add Spring-actuator to your project and check [config-props](http://localhost:8080/actuator/configprops)  
+
 # Related repository
 [mcs-lvl-one-two](https://github.com/DennisKingsman/RestMicroservicesLvlOne)
