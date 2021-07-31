@@ -1,11 +1,12 @@
 # Author
 ## DennisKingsman
 # Resources
-[mcs-lvl-three](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTaoaVoQVfRJPqvNTCjcTvJB)
+[youtube-guide-mcs-lvl-3](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTaoaVoQVfRJPqvNTCjcTvJB)
 # Recommended to study
 [External sources documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.external-config)
 # Use 
-Spring profiles
+Spring profiles  
+Spring Cloud config server  
 # Process
 Step 1  
 just put the value into property  
@@ -21,6 +22,9 @@ Achieve environment specific configuration by trying
 ```
 java -jar config-project-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active= test
 ```
-you can also put @Profile("test") on top of a bean
+you can also put @Profile("test") on top of a bean  
+Step 6  
+Create a spring cloud config server  
 # Related repository
-[mcs-lvl-one-two](https://github.com/DennisKingsman/RestMicroservicesLvlOne)
+[mcs-lvl-one-two](https://github.com/DennisKingsman/RestMicroservicesLvlOne)  
+[spring-cloud-config-server]()

@@ -1,0 +1,9 @@
+my:
+  greeting: Hello from SpringCloud config server
+  list.values: config, server, spring, cloud
+  example.dbValues: "{connection: 'https://____', userName: 'user', password: 'admin'}"
+db:
+  login: admin
+  password: cfg123
+  port: 1521
+  host: 127.0.0.1
