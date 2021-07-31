@@ -25,6 +25,12 @@ java -jar config-project-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active= test
 you can also put @Profile("test") on top of a bean  
 Step 6  
 Create a spring cloud config server  
+# Issues
+## Spring cloud config server
+If config for spring cloud server is not in the main dir of git repo than it can't find cfg file  
+I have created a new repo for application.yml only so it can clone this repo  
+You also can use your local git repo  
 # Related repository
+[application.yml for cfg-server](https://github.com/DennisKingsman/ConfigSpringCloudServer)
 [mcs-lvl-one-two](https://github.com/DennisKingsman/RestMicroservicesLvlOne)  
 [spring-cloud-config-server]()
