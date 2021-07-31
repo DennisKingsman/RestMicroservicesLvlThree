@@ -26,13 +26,40 @@ java -jar config-project-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active= test
 ```
 you can also put @Profile("test") on top of a bean  
 Step 6  
-Create a spring cloud config server  
+Create a spring cloud config server and a spring cloud config client  
+Add `@RefreshScope` into bean which need to be refreshable  
+Use postman to see the app is up and running(`get` request to [actuator/health](http://localhost:8080/actuator/health))  
+You should receive
+```
+{
+    "status": "UP"
+}
+```
+To trigger refresh in actuator use `post` request to
+```
+http://localhost:8080/actuator/refresh
+```
+Try to commit to config-file repo and then send this post request.  
+Real-time management done!
 # Issues
 ## Spring cloud config server
 If config for spring cloud server is not in the main dir of git repo than it can't find cfg file  
 I have created a new repo for application.yml only so it can clone this repo  
 You also can use your local git repo  
+## Real-time management
+Besides the Spring Actuator you need to add Spring Cloud Bootstrap and bootstrap.yml  
+smth like:
+```
+spring:
+  application:
+    name: foo
+  cloud:
+    config:
+      uri: ${SPRING_CONFIG_URI:http://localhost:8888}
+
+```
+You also can add to this file  the management endpoints web exposure include property there.
 # Related repository
-[application.yml for cfg-server](https://github.com/DennisKingsman/ConfigSpringCloudServer)
+[application.yml for cfg-server](https://github.com/DennisKingsman/ConfigSpringCloudServer)  
 [mcs-lvl-one-two](https://github.com/DennisKingsman/RestMicroservicesLvlOne)  
 [spring-cloud-config-server]()
