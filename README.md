@@ -4,7 +4,7 @@
 [youtube-guide-mcs-lvl-3](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTaoaVoQVfRJPqvNTCjcTvJB)
 # Recommended to study
 ## Common
-[12factor.net](https://12factor.net/)
+[12factor.net](https://12factor.net/)  
 [External sources documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.external-config)  
 ## Accumulation(May not apply to this project)
 ### RestTemplate
