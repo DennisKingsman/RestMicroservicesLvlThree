@@ -3,7 +3,9 @@
 # Resources
 [youtube-guide-mcs-lvl-3](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTaoaVoQVfRJPqvNTCjcTvJB)
 # Recommended to study
+# Common
 [External sources documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.external-config)
+# Spring Cloud 
 # Use 
 Spring profiles  
 Spring Cloud config server  
