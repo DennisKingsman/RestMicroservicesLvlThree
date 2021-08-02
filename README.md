@@ -22,6 +22,7 @@
 [mono](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html)  
 [flux](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html)
 ### WebClient 
+[spring-webflux-concurrency](https://www.baeldung.com/spring-webflux-concurrency)  
 [docs](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/reactive/function/client/WebClient.html)  
 [spring-5-webclient](https://www.baeldung.com/spring-5-webclient)
 ### Kafka
