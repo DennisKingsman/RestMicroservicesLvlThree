@@ -29,6 +29,8 @@
 [baeldung.com/spring-kafka](https://www.baeldung.com/spring-kafka)  
 [spring-kafka](https://spring.io/projects/spring-kafka)  
 [spring-boot-kafka-testing](https://www.baeldung.com/spring-boot-kafka-testing)  
+[docs-kafkaTemplate](https://docs.spring.io/spring-kafka/api/org/springframework/kafka/core/KafkaTemplate.html)  
+[spring-kafka-reference](https://docs.spring.io/spring-kafka/docs/1.1.2.RELEASE/reference/html/_reference.html)  
 ## Spring Cloud 
 [spring-cloud-config](https://cloud.spring.io/spring-cloud-config/reference/html/)  
 [Customizing the Bootstrap Property Sources](https://projects.spring.io/spring-cloud/spring-cloud.html)  
